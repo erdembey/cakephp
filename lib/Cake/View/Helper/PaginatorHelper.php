@@ -976,7 +976,7 @@ class PaginatorHelper extends AppHelper {
  * - `block` The block name to append the output to, or false/absenst to return as a string
  *
  * @param array $options Array of options
- * @return string Meta links
+ * @return string|void Meta links
  */
 	public function meta($options = array()) {
 		$model = isset($options['model']) ? $options['model'] : null;
