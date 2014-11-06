@@ -1130,7 +1130,7 @@ class ControllerTest extends CakeTestCase {
 		$data = array();
 		$Controller->data = array();
 		$result = $Controller->postConditions($data);
-		$this->assertSame($data, $result);
+		$this->assertNull($result);
 
 		$data = array();
 		$Controller->data = array(
